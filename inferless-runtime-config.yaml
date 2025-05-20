@@ -1,0 +1,11 @@
+build:
+  system_packages:
+    - "libsm6"
+    - "ffmpeg"
+    - "libxext6"
+  python_packages:
+    - "ultralytics==8.3.140"
+    - "torch==2.7.0"
+    - "torchvision==0.22.0"
+    - "inferless==0.2.13"
+    - "pydantic==2.10.2"
