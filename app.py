@@ -3,9 +3,8 @@ import requests
 import torch
 import inferless
 from pydantic import BaseModel, Field
-from typing import Optional, List, Dict, Any
+from typing import Optional, List
 from ultralytics import YOLO
-import uuid
 import cv2
 import base64
 
