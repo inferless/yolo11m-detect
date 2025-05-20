@@ -11,7 +11,7 @@ import base64
 
 @inferless.request
 class RequestObjects(BaseModel):
-    image_url: str = Field(description="URL of the image to perform detection on.")
+    image_url: str = Field(default="https://github.com/rbgo404/Files/raw/main/photo-1517732306149-e8f829eb588a.jpeg")
     confidence_threshold: Optional[float] = Field(default=0.25)
 
 @inferless.response
