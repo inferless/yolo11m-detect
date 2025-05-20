@@ -1,10 +1,8 @@
-
-
 # Tutorial - Deploy YOLO11-m using Inferless
 YOLO11-m is the “medium” checkpoint from Ultralytics’ new YOLO 11 family, delivering 51.5 mAP on COCO at real-time speeds while weighing in at ~20M parameters.
 
 ## TL;DR:
-- Deployment of YOLO11-m model using [transformers](https://github.com/huggingface/transformers).
+- Deployment of YOLO11-m model.
 - Dependencies defined in `inferless-runtime-config.yaml`.
 - GitHub/GitLab template creation with `app.py`, `inferless-runtime-config.yaml` and `inferless.yaml`.
 - Model class in `app.py` with `initialize`, `infer`, and `finalize` functions.
