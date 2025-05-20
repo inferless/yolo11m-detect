@@ -1,5 +1,7 @@
 # Tutorial - Deploy YOLO11-m using Inferless
-YOLO11-m is the “medium” checkpoint from Ultralytics’ new YOLO 11 family, delivering 51.5 mAP on COCO at real-time speeds while weighing in at ~20M parameters.
+YOLO11-m is a medium-sized variant of the YOLO11 family, designed to balance accuracy and computational efficiency for object detection tasks. Building upon the advancements of previous YOLO versions, YOLO11-m incorporates architectural enhancements such as the C3k2 block, Spatial Pyramid Pooling - Fast (SPPF), and Convolutional block with Parallel Spatial Attention (C2PSA) to improve feature extraction and detection performance.
+
+This model is particularly suitable for applications requiring real-time object detection with limited computational resources, such as surveillance systems, autonomous vehicles, and mobile devices. YOLO11-m achieves higher mean Average Precision (mAP) on benchmarks like the COCO dataset while using fewer parameters compared to its predecessors, making it an efficient choice for various computer vision applications. 
 
 ## TL;DR:
 - Deployment of YOLO11-m model.
